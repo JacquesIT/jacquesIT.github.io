@@ -1,0 +1,57 @@
+$color: cadetblue;
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .registerForm {
+    background-color: white;
+    padding: 10px;
+    width: 25%;
+    border-radius: 15px;
+    box-shadow: 0 30px 40px rgba(0,0,0,.5);
+  }
+
+.registerButton {
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    cursor: pointer;
+    background-color: $color;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.registerLabel {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    font-weight: bold;
+}
+ 
+ 
+.registerInput {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.registerH1 {
+    color: $color;
+    text-align: center;
+}
+
+
+
+

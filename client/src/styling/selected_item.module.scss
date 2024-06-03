@@ -1,0 +1,134 @@
+.selectedItemForm {
+    background-color: white;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 1%;
+}
+
+.selectedItemContainer {
+    background-color: rgb(212, 222, 233);
+}
+
+.gridContainer {
+    padding: 10px;
+}
+
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.carousel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.leftArrow, .rightArrow {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 1;
+}
+
+.leftArrow {
+    left: 10px;
+}
+
+.rightArrow {
+    right: 10px;
+}
+
+@media (max-width: 1200px) {
+    .carousel {
+        height: 60vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel {
+        height: 70vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .carousel {
+        height: 80vw;
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: 	rgb(212, 222, 233);
+    margin-bottom: 5%;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.spec {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.spec:nth-child(2n) {
+    background-color: white;
+}
+
+.title, .value {
+    margin: 0;
+    padding: 0.5rem 0;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.placeBidButton {
+    width: 20%;
+    height: 10%;
+    margin-top: 5%;
+    border-radius: 5px;
+    background-color: lightblue;
+}
+
+.modalBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    outline: none;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdownContainer {
+    margin: 20px 0;
+}
+
+
+
+
